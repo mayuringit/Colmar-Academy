@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar-desktop{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    margin-right: 16px;
+}
+.nav-link>a{
+   text-decoration: none;
+   color: black;
+}
+.span-academy{
+    color: gray;
+}
+#colar-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-item-2{
+    margin: 0px 24px;
+}
+.sign-in-logo{
+    height: 24px;
+}
+
+.navbar-mobile{
+    display: none;
+}
+@media(max-width:720px){
+    .navbar-desktop{
+        display: none;
+    }
+    .navbar-mobile{
+        display: block;
+        width: 100vw;
+        height: 64px;
+    }
+}
+
+/* card---> */
+#card-1-row{
+    background-color: #d8d8d8;
+    height: 90vh;
+}
+.card{
+    background-color: #d8d8d8;
+    border: none;
+    display: flex;
+    align-items: center;
+    height:20rem
+}
+.card-body{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35%;
+}
+#btn-start-here{
+    background-color: #4d4949;
+    width: 20em;
+    height: 50px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    color: white;
+}
+h5{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4d4949;
+}
+p{
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4d4949;
+}
+#card-row-1-img{
+    padding: 32px 24px 32px 24px;
+}
+@media (max-width:720px){
+    #card-1-row{
+        max-width:100% ;
+
+        display: block;
+    }
+    #card-col-2{
+        display: block;
+        max-width: 100%;
+    }
+    #card-1-row{
+        height: 63vh;
+    }
+    .card{
+        border: none;
+        display: flex;
+        align-items: center;
+        height:20rem
+    }
+    .card-body{
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 35%;
+    }
+    #btn-start-here{
+        background-color: #4d4949;
+        width: 18em;
+        height: 50px;
+        text-align: center;
+        padding: 8px;
+        color: white;
+    }
+    h5{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #4d4949;
+    }
+    p{
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #4d4949;
+    }
+    #card-row-1-img{
+        width: 20rem;
+    }
+}
+
+
+/* 2nd-row-section */
+#second-section-row{
+margin-top: 32px;
+}

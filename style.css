@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+#logo-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-item-link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-link-text{
+    text-decoration: none;
+}
+.nav-link-logo{
+    display: none;
+}
+.div-1>ul{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-main-div{
+    height: 64px;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+}
+.sign-in-logo{
+    height: 24px;
+}
+@media (max-width:720px){
+    #navbar{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 64px;
+        align-items: center;
+    }
+    .nav-link-text{
+        display: none;
+        text-decoration: none;
+        margin: 0px 20px 0px 20px;
+    }
+    .nav-link-logo{
+        margin: 0px 20px 0px 20px;
+        display: block;
+    }
+}
